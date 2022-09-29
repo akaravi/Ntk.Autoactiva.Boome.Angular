@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    border: 2px solid #283991; 
+    height: 200px;
   }
 .height{
     height: 60px;
@@ -20,4 +19,7 @@
 }
 .text-align{
   text-align: center;
+}
+.border-color{
+    border: 2px solid #C3996B;
 }
