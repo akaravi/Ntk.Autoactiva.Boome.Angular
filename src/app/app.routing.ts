@@ -10,6 +10,12 @@ const routes: Routes = [
         component:HomeComponent,
     }
 
+    // {
+    //     path: '',
+    //     canActivate: [CmsAuthGuard],
+    //     loadChildren: () => import('./pages/pages.module').then((m) => m.PagesModule),
+    //   },
+
 ];
 
 @NgModule({
