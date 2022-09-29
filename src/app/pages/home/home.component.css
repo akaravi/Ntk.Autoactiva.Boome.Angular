@@ -1,0 +1,14 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border: 2px solid black; 
+  }
+.height{
+    height: 60px;
+    width: 100%;
+}
+.backgroundColor {
+  background-color: #C29F30;
+}
