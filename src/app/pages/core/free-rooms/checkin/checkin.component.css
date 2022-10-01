@@ -1,0 +1,29 @@
+.fontsize{
+    font-size: 50px;
+}
+.border-color{
+    border: 1px solid #C3996B;
+}
+.color{
+    color: #C3996B;
+}
+#input{
+    border: none;
+    outline:none;
+    display:table-cell;
+    width:100%;
+    line-height: 40px;
+}
+#input:active{
+    border: none;
+    outline:none;
+    display:table-cell;
+    width:100%;
+    line-height: 40px;
+}
+::placeholder {
+    color: #C3996B;
+    font-size: 20px;
+    opacity: 1;
+  }
+

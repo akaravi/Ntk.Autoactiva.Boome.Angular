@@ -1,23 +1,8 @@
-.center {
+.centered {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
     border: 2px solid #283991;
   }
-.height{
-    height: 60px;
-    width: 100%;
-}
-.backgroundColor {
-  background-color: #C29F30;
-}
-.font-size{
-  font-size: 20px;
-}
-.align-item{
-  align-items: center;
-}
-.text-align{
-  text-align: center;
-}
+

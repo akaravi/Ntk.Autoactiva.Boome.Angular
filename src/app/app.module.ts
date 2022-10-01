@@ -14,6 +14,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RestaurantComponent } from './pages/core/restaurant/restaurant.component';
 import { CheckinOutComponent } from './pages/core/checkin-out/checkin-out.component';
 import { RateStarComponent } from './pages/layout/components/rate-star/rate-star.component';
+import { HomeScanComponent } from './pages/home-scan/home-scan.component';
+import { HotelWebsiteComponent } from './pages/core/hotel-website/hotel-website.component';
+import { RoomsComponent } from './pages/core/free-rooms/rooms/rooms.component';
+import { CheckinComponent } from './pages/core/free-rooms/checkin/checkin.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +30,10 @@ import { RateStarComponent } from './pages/layout/components/rate-star/rate-star
     RateStarComponent,
     RestaurantComponent,
     CheckinOutComponent,
+    HomeScanComponent,
+    HotelWebsiteComponent,
+    RoomsComponent,
+    CheckinComponent,
   ],
   imports: [
     BrowserModule,
