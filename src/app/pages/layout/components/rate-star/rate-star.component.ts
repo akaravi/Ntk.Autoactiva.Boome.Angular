@@ -7,7 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class RateStarComponent {
 
-  // starRating = 1; 
 
   @Input() starRating: number = 1;
 

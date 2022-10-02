@@ -18,6 +18,7 @@ import { HomeScanComponent } from './pages/home-scan/home-scan.component';
 import { HotelWebsiteComponent } from './pages/core/hotel-website/hotel-website.component';
 import { RoomsComponent } from './pages/core/free-rooms/rooms/rooms.component';
 import { CheckinComponent } from './pages/core/free-rooms/checkin/checkin.component';
+import { MultiPersonComponent } from './pages/layout/components/multi-person/multi-person.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { CheckinComponent } from './pages/core/free-rooms/checkin/checkin.compon
     HotelWebsiteComponent,
     RoomsComponent,
     CheckinComponent,
+    MultiPersonComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,8 +16,11 @@
 <div class="row align-item my-4 height text-align">
     <div class="col-12" style="font-size: 20px;">
         Freie Zimmer/Free Rooms <br> Click to Book
+
     </div>
 </div>
+
+
 
 <a routerLink="/pages/free-rooms/checkin" class="p-0" style="text-decoration: none;">
     <div class="row align-item my-2" style="background-color: #8BC63F; height: 100px;">
@@ -27,8 +30,13 @@
         <div class="col-5 text-white font-size text-align">
             <b>Rotkäppchen</b><br>Doppelzimmer
         </div>
-        <div class="col-4 text-white font-size text-align">
-            99,- &euro;
+        <div class="col-4 text-white font-size" style="text-align: right;">
+            <div>
+                <app-multi-person style="float: right;" [rating]="2"></app-multi-person>
+            </div><br>
+            <span>
+                99,- &euro;
+            </span>
         </div>
     </div>
 </a>
@@ -41,8 +49,13 @@
         <div class="col-5 text-white font-size text-align">
             <b>Die goldene Gans</b><br>Suite
         </div>
-        <div class="col-4 text-white font-size text-align">
-            119,- &euro;
+        <div class="col-4 text-white font-size text-align" style="text-align: right;">
+            <div>
+                <app-multi-person style="float: right;" [rating]="2"></app-multi-person>
+            </div><br>
+            <span>
+                119,- &euro;
+            </span>
         </div>
     </div>
 </a>
@@ -55,8 +68,13 @@
         <div class="col-5 text-white font-size text-align">
             <b>Hänsel</b><br>Einzelzimmer
         </div>
-        <div class="col-4 text-white font-size text-align">
-            89,- &euro;
+        <div class="col-4 text-white font-size text-align" style="text-align: right;">
+            <div>
+                <app-multi-person style="float: right;" [rating]="1"></app-multi-person>
+            </div><br>
+            <span>
+                89,- &euro;
+            </span>
         </div>
     </div>
 </a>
@@ -69,8 +87,13 @@
         <div class="col-5 text-white font-size text-align">
             <b>Aschenputtel</b><br>Doppelzimmer
         </div>
-        <div class="col-4 text-white font-size text-align">
-            99,- &euro;
+        <div class="col-4 text-white font-size text-align" style="text-align: right;">
+            <div>
+                <app-multi-person style="float: right;" [rating]="2"></app-multi-person>
+            </div><br>
+            <span>
+                99,- &euro;
+            </span>
         </div>
     </div>
 </a>
@@ -83,8 +106,13 @@
         <div class="col-5 text-white font-size text-align">
             <b>Rapunzel</b><br>Apartment
         </div>
-        <div class="col-4 text-white font-size text-align">
-            139,- &euro;
+        <div class="col-4 text-white font-size text-align" style="text-align: right;">
+            <div>
+                <app-multi-person style="float: right;" [rating]="4"></app-multi-person>
+            </div><br>
+            <span>
+                139,- &euro;
+            </span>
         </div>
     </div>
 </a>
