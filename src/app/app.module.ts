@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AppRouting } from './app.routing';
 import { HomeComponent } from './pages/home/home.component';
@@ -10,7 +12,6 @@ import { FruhstuckComponent } from './pages/core/fruhstuck/fruhstuck.component';
 import { InformationComponent } from './pages/core/information/information.component';
 import { KontaktComponent } from './pages/core/kontakt/kontakt.component';
 import { SightseeingComponent } from './pages/core/sightseeing/sightseeing.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RestaurantComponent } from './pages/core/restaurant/restaurant.component';
 import { CheckinOutComponent } from './pages/core/checkin-out/checkin-out.component';
 import { RateStarComponent } from './pages/layout/components/rate-star/rate-star.component';
@@ -44,7 +45,9 @@ import { MultiPersonComponent } from './pages/layout/components/multi-person/mul
     HttpClientModule,
     NgbModule,
   ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
